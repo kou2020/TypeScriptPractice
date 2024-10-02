@@ -1,0 +1,31 @@
+{
+  "include": ["./src/**/*"],
+  "exclude": ["./src/exclude/**/*"],
+  "compilerOptions": {
+    "target": "es6",
+    "module": "system",
+    // "lib": []
+    // "outDir": "./dist",
+    "outFile": "./dist/app.js",
+    //是否对js文件进行编译，默认是false
+    "allowJs": true,
+    //是否检查js代码是否符合语法规范，默认是false
+    "checkJs": true,
+    //是否移除注释
+    "removeComments": true,
+    //不生成编译后的文件,false的话生成文件，true的话不生成编译后的文件
+    "noEmit": false,
+    //当有错误的时候不生成编译文后的文件
+    "noEmitOnError": true,
+    //所有的严格检查的总开关
+    "strict": true,
+    // 用来设置编译后的文件是否使用严格模式，默认是false
+    "alwaysStrict": true,
+    //不允许使用隐式any类型
+    "noImplicitAny": true,
+    //不允许使用隐式this
+    "noImplicitThis": true,
+    //严格的检查空值
+    "strictNullChecks": true
+  }
+}
